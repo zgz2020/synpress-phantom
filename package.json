@@ -1,0 +1,21 @@
+{
+	"name": "synpress-phantom",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/zgz2020/synpress-phantom.git",
+	"author": "juan-langa <jjlanga@gmail.com>",
+	"license": "MIT",
+	"type": "module",
+	"devDependencies": {
+		"@playwright/test": "^1.52.0",
+		"@types/node": "^22.15.3",
+		"typescript": "^5.8.3"
+	},
+	"scripts": {
+		"build-synpress-cache": "synpress ./wallet-setup --phantom",
+		"run-tests": "npx playwright test"
+	},
+	"dependencies": {
+		"@synthetixio/synpress": "^4.1.0"
+	}
+}
