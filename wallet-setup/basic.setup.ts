@@ -1,5 +1,4 @@
-// import { defineWalletSetup } from '@synthetixio/synpress';
-import { defineWalletSetup } from '@synthetixio/synpress-cache';
+import { defineWalletSetup } from '@synthetixio/synpress';
 import { Phantom } from '@synthetixio/synpress/playwright';
 
 export const SEED_PHRASE = 'test test test test test test test test test test test junk';
