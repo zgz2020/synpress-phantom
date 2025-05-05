@@ -24,11 +24,11 @@ During playwright installation select:
 8 - Add `tsconfig.json` file (you can copy-paste the file in this repository)
 
 9 - Add synpress basic set up file
-- You can copy-paste the file in synpress examples: https://github.com/Synthetixio/synpress/blob/new-dawn/examples/metamask/test/wallet-setup/basic.setup.ts
+- You can copy-paste `basic.setup.ts` file found in this repository (`./wallet-setup/basic.setup.ts`).
 - You can place the file in any folder, for example in  `./wallet-setup`
 
 10 - Create a basic test using synpres
-- You can copy-paste `testingWithSynpress.spec.ts` file found in this repository (`./tests/testingWithSynpress.spec.ts`), which is based in sample test from synpress examples (https://github.com/Synthetixio/synpress/blob/new-dawn/examples/metamask/test/playwright/01_basic.spec.ts)
+- You can copy-paste `testingWithSynpress.spec.ts` file found in this repository (`./tests/testingWithSynpress.spec.ts`).
 
 11 - Add the folowing script to `package.json` file: `"run-tests": "npx playwright test"`
 
